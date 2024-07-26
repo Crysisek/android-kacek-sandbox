@@ -9,6 +9,17 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/core/network" />
+            <option value="$PROJECT_DIR$/data" />
+            <option value="$PROJECT_DIR$/data/base-feature" />
+            <option value="$PROJECT_DIR$/domain" />
+            <option value="$PROJECT_DIR$/domain/base-feature" />
+            <option value="$PROJECT_DIR$/presentation" />
+            <option value="$PROJECT_DIR$/presentation/base-feature" />
+            <option value="$PROJECT_DIR$/ui" />
+            <option value="$PROJECT_DIR$/ui/base-feature" />
+            <option value="$PROJECT_DIR$/ui/theme" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />

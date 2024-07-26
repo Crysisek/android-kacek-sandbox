@@ -1,4 +1,4 @@
-package com.kacek.sandbox.ui.theme
+package com.kacek.theme
 
 import androidx.compose.ui.graphics.Color
 
