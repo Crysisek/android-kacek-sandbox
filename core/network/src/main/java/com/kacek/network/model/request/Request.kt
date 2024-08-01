@@ -9,7 +9,7 @@ package com.kacek.network.model.request
  * @property headers: headers appended after the [NetworkClient][com.kacek.network.client.NetworkClient]'s default headers
  * @property body: request's body, [kotlinx.serialization] models will be serialized automatically.
  */
-data class Request<out T>(
+data class Request<T>(
     val method: HttpMethod,
     val path: String,
     val queryParameters: Map<String, String>? = null,
