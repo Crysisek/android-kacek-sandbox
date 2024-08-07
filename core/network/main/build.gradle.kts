@@ -3,7 +3,9 @@ plugins {
 }
 
 dependencies {
-    implementation(project(":core:kotlin:coroutines"))
+    implementation(project(":core:kotlin:coroutines:api"))
+    implementation(project(":core:network:api"))
+    implementation(project(":core:network:model"))
 
     implementation(libs.ktor.client.core)
     implementation(libs.ktor.client.okhttp)
