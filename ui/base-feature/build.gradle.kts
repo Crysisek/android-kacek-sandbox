@@ -27,7 +27,7 @@ composeCompiler {
 }
 
 dependencies {
-    implementation(project(":ui:theme"))
+    implementation(project(":core:theme"))
 
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.ui)

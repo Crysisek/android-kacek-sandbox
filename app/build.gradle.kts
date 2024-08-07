@@ -49,8 +49,8 @@ composeCompiler {
 }
 
 dependencies {
+    implementation(project(":core:theme"))
     implementation(project(":ui:base-feature"))
-    implementation(project(":ui:theme"))
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
