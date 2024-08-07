@@ -8,7 +8,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
-import com.kacek.basefeature.BaseScreen
+import com.kacek.ui.basefeature.BaseScreen
 import com.kacek.theme.AppTheme
 
 class MainActivity : ComponentActivity() {
