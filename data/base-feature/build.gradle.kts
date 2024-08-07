@@ -3,6 +3,6 @@ plugins {
 }
 
 dependencies {
-    implementation(project(":core:network"))
+    implementation(project(":core:network:api"))
     implementation(project(":domain:base-feature"))
 }

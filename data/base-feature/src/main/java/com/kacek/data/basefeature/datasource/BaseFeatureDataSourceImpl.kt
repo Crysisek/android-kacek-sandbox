@@ -1,5 +1,5 @@
 package com.kacek.data.basefeature.datasource
 
-import com.kacek.network.DummyNetwork
+import com.kacek.core.network.api.client.NetworkClient
 
-class BaseFeatureDataSourceImpl(dummyNetwork: DummyNetwork): BaseFeatureDataSource
+class BaseFeatureDataSourceImpl(networkClient: NetworkClient): BaseFeatureDataSource
