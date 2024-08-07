@@ -20,10 +20,10 @@ import kotlinx.coroutines.withContext
 import kotlinx.serialization.json.Json
 
 class NetworkClientImpl(
-    private val requestMapper: RequestToKtorHttpRequestBuilderMapper,
-    private val responseMapper: KtorHttpResponseToResponseMapper,
     private val dispatcherProvider: DispatcherProvider,
 ) : NetworkClient() {
+    private val requestMapper = RequestToKtorHttpRequestBuilderMapper()
+    private val responseMapper = KtorHttpResponseToResponseMapper()
 
     override suspend fun <T> executeRequest(
         request: Request<T>,

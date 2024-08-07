@@ -8,7 +8,7 @@ import io.ktor.client.request.setBody
 import io.ktor.client.request.url
 import io.ktor.http.HttpMethod
 
-class RequestToKtorHttpRequestBuilderMapper {
+internal class RequestToKtorHttpRequestBuilderMapper {
 
     fun <T> map(param: Request<T>): HttpRequestBuilder {
         return HttpRequestBuilder().apply {
