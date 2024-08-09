@@ -10,7 +10,7 @@ above the problematic code.
 When [Enable K2 Kotlin mode] option in Android Studio will be more stable
 then we will be able to use the following syntax:
 
-```
+```kotlin
  val value: StateFlow<Type>
      field = MutableStateFlow(initial)
 ```
