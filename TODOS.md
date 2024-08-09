@@ -6,7 +6,7 @@ This file contains all major **TODO** comments. When encountered a situation for
 above the problematic code.
 
 # TODOS
-## TODO-1 (explicit-backing-fields)[https://github.com/Kotlin/KEEP/blob/explicit-backing-fields-re/proposals/explicit-backing-fields.md]
+## TODO-1 [explicit-backing-fields](https://github.com/Kotlin/KEEP/blob/explicit-backing-fields-re/proposals/explicit-backing-fields.md)
 When *Enable K2 Kotlin mode* option in Android Studio will be more stable
 then we will be able to use the following syntax:
 
