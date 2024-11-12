@@ -4,6 +4,4 @@ plugins {
 
 dependencies {
     implementation(project(":core:kotlin:coroutines:api"))
-
-    implementation(libs.coroutines)
 }
